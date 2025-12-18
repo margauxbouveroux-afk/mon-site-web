@@ -1,0 +1,73 @@
+/* =====================================================
+   RESET DE BASE
+===================================================== */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* =====================================================
+   NAVBAR
+===================================================== */
+nav.navbar {
+    position: sticky;
+    top: 0;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 2rem;
+    z-index: 100;
+}
+
+nav .logo-title {
+    display: flex;
+    align-items: center;
+}
+
+nav .logo {
+    height: 50px;
+    margin-right: 1rem;
+}
+
+nav .menu {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+nav .menu li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav .menu li a:hover {
+    border-bottom: 4px solid #333;
+}
+
+/* =====================================================
+   FOOTER
+===================================================== */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+footer a {
+    color: inherit; 
+    text-decoration: underline;
+}
+
+/* =====================================================
+   SECURITÉ IMAGES
+===================================================== */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
